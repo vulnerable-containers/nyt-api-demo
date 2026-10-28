@@ -1,5 +1,5 @@
 FROM composer:2.8.8 AS composer_docker
-FROM php:8.4.6-fpm-bookworm
+FROM php:8.4.27-fpm-bookworm
 
 ENV DEBIAN_FRONTEND=noninteractive
 
